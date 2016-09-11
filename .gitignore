@@ -3,6 +3,7 @@ __pycache__/
 # Build artifacts
 /build/
 /dist/
+/*.egg-info/
 
 # Test artifacts
 /.cache/
