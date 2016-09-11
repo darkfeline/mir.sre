@@ -1,0 +1,10 @@
+# -*- conf-unix -*-
+
+[run]
+branch = True
+
+[report]
+exclude_lines =
+  pragma: no cover
+  def __repr__
+show_missing = True

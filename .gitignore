@@ -1,0 +1,9 @@
+__pycache__/
+
+# Build artifacts
+/build/
+/dist/
+
+# Test artifacts
+/.cache/
+/.coverage
