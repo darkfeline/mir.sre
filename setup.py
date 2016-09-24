@@ -32,6 +32,7 @@ setup(
 
     py_modules=['mir.protology'],
     packages=[],
+    install_requires=[],
     entry_points={
         'console_scripts': [
             'protology = mir.protology:main',
