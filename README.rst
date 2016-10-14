@@ -8,5 +8,4 @@ mir.protology
 .. image:: https://badge.fury.io/py/mir.protology.svg
    :target: https://badge.fury.io/py/mir.protology
 
-
 Python distribution template for the mir namespace.
