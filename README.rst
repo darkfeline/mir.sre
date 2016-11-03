@@ -14,4 +14,4 @@ mir.protology
    :target: http://mir-protology.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
-Python distribution template for the mir namespace.
+Template project for Python projects under Project Mir.
