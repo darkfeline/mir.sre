@@ -24,6 +24,7 @@ setup(
     author='Allen Li',
     author_email='darkfeline@felesatra.moe',
     classifiers=[
+        # https://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
