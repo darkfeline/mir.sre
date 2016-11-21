@@ -25,7 +25,7 @@ setup(
     author_email='darkfeline@felesatra.moe',
     classifiers=[
         # https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'Development Status :: 1 - Planning',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3.5',
