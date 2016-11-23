@@ -11,7 +11,7 @@ mir.protology
    :target: https://badge.fury.io/py/mir.protology
    :alt: PyPi Release
 .. image:: https://readthedocs.org/projects/mir-protology/badge/?version=latest
-   :target: http://mir-protology.readthedocs.io/en/latest/?badge=latest
-   :alt: Documentation Status
+   :target: http://mir-protology.readthedocs.io/en/latest/
+   :alt: Latest Documentation
 
 Template project for Python projects under Project Mir.
