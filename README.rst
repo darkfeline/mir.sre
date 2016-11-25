@@ -9,7 +9,7 @@ mir.protology
    :alt: Codecov
 .. image:: https://badge.fury.io/py/mir.protology.svg
    :target: https://badge.fury.io/py/mir.protology
-   :alt: PyPi Release
+   :alt: PyPI Release
 .. image:: https://readthedocs.org/projects/mir-protology/badge/?version=latest
    :target: http://mir-protology.readthedocs.io/en/latest/
    :alt: Latest Documentation
