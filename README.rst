@@ -1,5 +1,5 @@
-mir.protology
-=============
+mir.protology README
+====================
 
 .. image:: https://circleci.com/gh/project-mir/mir.protology.svg?style=shield
    :target: https://circleci.com/gh/project-mir/mir.protology
