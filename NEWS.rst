@@ -1,4 +1,4 @@
-mir.protology Release notes
+mir.protology Release Notes
 ===========================
 
 This project uses `semantic versioning <http://semver.org/>`_.
