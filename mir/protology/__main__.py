@@ -12,8 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from mir.protology.__main__ import quack
+
+def quack():
+    """Quack like a duck."""
+    return 'quack'
 
 
-def test_quack():
-    assert quack() == 'quack'
+def main():
+    print(quack)
+
+
+if __name__ == '__main__':
+    main()
