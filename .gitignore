@@ -9,4 +9,4 @@ __pycache__/
 /.cache/
 /.coverage
 /.tox/
-/.junit/
+/.pytest/
