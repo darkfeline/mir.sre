@@ -3,5 +3,5 @@ machine:
     version: 3.6.0
 test:
   post:
-    - mv .junit $CIRCLE_TEST_REPORTS
+    - sh -c 'mv .junit $CIRCLE_TEST_REPORTS'
     - bash <(curl -s https://codecov.io/bash)
