@@ -1,6 +1,6 @@
 machine:
   python:
-    version: 3.6.0b1
+    version: 3.6.0
 test:
   post:
     - mv .junit $CIRCLE_TEST_REPORTS
