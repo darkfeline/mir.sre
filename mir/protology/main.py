@@ -12,26 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import contextlib
-import io
-
-from mir.protology.main import main
-from mir.protology.main import quack
+import sys
 
 
-def test_quack():
-    assert quack() == 'quack'
+def quack():
+    """Quack like a duck."""
+    return 'quack'
 
 
-def test_main():
-    output = io.StringIO()
-    with contextlib.redirect_stdout(output):
-        main()
-    assert output.getvalue() == 'quack\n'
-
-
-def test_main_with_args():
-    output = io.StringIO()
-    with contextlib.redirect_stdout(output):
-        main([])
-    assert output.getvalue() == 'quack\n'
+def main(args=None):
+    if args is None:
+        args = sys.argv[1:]
+    print(quack())
