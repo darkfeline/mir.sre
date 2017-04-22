@@ -33,9 +33,4 @@ setup(
 
     packages=['mir.protology'],
     install_requires=[],
-    entry_points={
-        'console_scripts': [
-            'protology = mir.protology.__main__:main',
-        ],
-    },
 )

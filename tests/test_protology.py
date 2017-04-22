@@ -15,23 +15,22 @@
 import contextlib
 import io
 
-from mir.protology.main import main
-from mir.protology.main import quack
+from mir.protology import ahiru
 
 
 def test_quack():
-    assert quack() == 'quack'
+    assert ahiru.quack() == 'quack'
 
 
 def test_main():
     output = io.StringIO()
     with contextlib.redirect_stdout(output):
-        main()
+        ahiru.main()
     assert output.getvalue() == 'quack\n'
 
 
 def test_main_with_args():
     output = io.StringIO()
     with contextlib.redirect_stdout(output):
-        main([])
+        ahiru.main([])
     assert output.getvalue() == 'quack\n'
