@@ -1,17 +1,14 @@
-mir.protology README
-====================
+mir.sre README
+==============
 
-.. image:: https://circleci.com/gh/darkfeline/mir.protology.svg?style=shield
-   :target: https://circleci.com/gh/darkfeline/mir.protology
+.. image:: https://circleci.com/gh/darkfeline/mir.sre.svg?style=shield
+   :target: https://circleci.com/gh/darkfeline/mir.sre
    :alt: CircleCI
-.. image:: https://codecov.io/gh/darkfeline/mir.protology/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/darkfeline/mir.protology
+.. image:: https://codecov.io/gh/darkfeline/mir.sre/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/darkfeline/mir.sre
    :alt: Codecov
-.. image:: https://badge.fury.io/py/mir.protology.svg
-   :target: https://badge.fury.io/py/mir.protology
+.. image:: https://badge.fury.io/py/mir.sre.svg
+   :target: https://badge.fury.io/py/mir.sre
    :alt: PyPI Release
-.. image:: https://readthedocs.org/projects/mir-protology/badge/?version=latest
-   :target: http://mir-protology.readthedocs.io/en/latest/
-   :alt: Latest Documentation
 
-Template project for Python projects under Project Mir.
+Structural regular expressions for Python.

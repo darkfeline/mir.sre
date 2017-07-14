@@ -12,6 +12,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from mir.protology import ahiru
+from mir import sre
 
-ahiru.main()
+
+def test_x_join():
+    got = sre.x_join(r'\w+', 'foo bar baz', lambda s: 'spam' + s)
+    assert got == 'spamfoo spambar spambaz'
+
+
+def test_y_join():
+    got = sre.y_join(r' +', 'foo bar baz', lambda s: 'spam' + s)
+    assert got == 'spamfoo spambar spambaz'
+
+
+def test_x_iter():
+    got = list(sre.x_iter(r'\w+', 'foo bar baz'))
+    assert got == ['foo', 'bar', 'baz']
+
+
+def test_y_iter():
+    got = list(sre.y_iter(r' +', 'foo bar baz'))
+    assert got == ['foo', 'bar', 'baz']

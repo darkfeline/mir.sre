@@ -15,22 +15,21 @@
 from setuptools import setup
 
 setup(
-    name='mir.protology',
+    name='mir.sre',
     version='0.1.0',
-    description='Distribution template for the mir namespace',
+    description='Structural regular expressions',
     long_description='',
     keywords='',
-    url='https://github.com/darkfeline/mir.protology',
+    url='https://github.com/darkfeline/mir.sre',
     author='Allen Li',
     author_email='darkfeline@felesatra.moe',
     classifiers=[
-        # https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3.6',
     ],
 
-    packages=['mir.protology'],
+    packages=['mir.sre'],
     install_requires=[],
 )
